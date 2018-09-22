@@ -1,5 +1,7 @@
 html,body{
     height: 100%;
+    overflow: hidden;
+    margin: 0px;
 }
 body{
     font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
@@ -19,10 +21,22 @@ body{
     justify-content: center;
 }
 
-.container{
+#app_content{
+    z-index: 4;
+    position: absolute;
+    text-align: center;
     width: 300px;
+    left: calc(50% - 150px);
+    top: 10%;
 }
 
+#avatar{
+    text-align: center;
+}
+
+#links{
+    margin-top: 30px;
+}
 
 .link_item{
     border-color: transparent!important;
@@ -33,7 +47,8 @@ body{
 }
 
 #welcome{
-    height: 150px;
+    position: absolute;
+    top: -10%;
     width: 100%;
 }
 
@@ -59,14 +74,19 @@ body{
     background-color: transparent!important;
 }
 
-#footer p{
-    color: azure;
+
+#footer{
     position: absolute;
     text-align: center;
     width: 900px;
     bottom: 1%;
     left: calc(50% - 450px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+#footer p{
+    color: azure;
+    text-align: center;
 }
 
 

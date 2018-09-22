@@ -12,82 +12,78 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 </head>
 <body>
-<div id="particles-js" style="position: fixed; width: 100%; height:100%;z-index: 2"></div>
-<div id="welcome" class="is-horizontal-center">
-    <canvas id="scene" style="position:fixed;height: 100%;z-index: 1"></canvas>
+<div id="particles-js" style="position:absolute; width: 100%; height:100%;z-index: 2"></div>
+<div id="welcome" class="is-horizontal-center" style="position:fixed;width: 100vw;z-index: 1">
+    <canvas id="scene"></canvas>
     <input id="copy" type="text" value="Exploration" style="display: none"/>
 </div>
-<section class="section">
-
-    <div class="container">
-        <div id="avatar" class="columns is-mobile is-horizontal-center">
-            <div class="column is-mobile is-flex is-horizontal-center">
-                <figure class="image is-128x128">
-                    <img class="is-rounded" src="assets/avatar.png">
-                </figure>
-            </div>
+<div id="app_content" class="is-horizontal-center">
+    <div id="avatar" class="is-horizontal-center">
+            <figure class="image is-128x128" style="display: inline-block">
+                <img class="is-rounded" src="assets/avatar.png">
+            </figure>
+    </div>
+    <div id="content">
+        <div>
+            <a id="name" class="button title">Kevin T. Lee</a>
+            <h5 class="subtitle is-5">Better to light one candle than to curse the darkness.</h5>
         </div>
-        <div id="content" class="columns is-mobile">
-            <div class="column">
-                <a id="name" class="button title">Kevin T. Lee</a>
-                <h5 class="subtitle is-5">Better to light one candle than to curse the darkness.</h5>
-            </div>
-        </div>
-        <div class="columns is-mobile">
-            <div class="column">
-                <ul id="links">
-                    <li>
-                        <a class="button is-primary is-outlined link_item" href="http://lidengju.com/blog">
+    </div>
+    <div id="links">
+        <ul class="is-mobile">
+            <li>
+                <a class="button is-primary is-outlined link_item" href="http://lidengju.com/blog">
                         <span class="icon">
                         <i class="fas fa-home"></i>
                         </span><span>Blog</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="button is-primary is-outlined link_item" href="mailto:hello@lidengju.com">
+                </a>
+            </li>
+            <li>
+                <a class="button is-primary is-outlined link_item" href="mailto:hello@lidengju.com">
                         <span class="icon">
                         <i class="far fa-envelope"></i>
                         </span><span>Email</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="button is-primary is-outlined link_item">
+                </a>
+            </li>
+            <li>
+                <a class="button is-primary is-outlined link_item">
                         <span class="icon">
                         <i class="fas fa-file-invoice"></i>
                         </span><span>Resume</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="button is-primary is-outlined link_item">
+                </a>
+            </li>
+            <li>
+                <a class="button is-primary is-outlined link_item">
                         <span class="icon">
                         <i class="fas fa-code"></i>
                         </span><span>Projects</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="button is-primary is-outlined link_item" href="https://github.com/kevinleeex">
+                </a>
+            </li>
+            <li>
+                <a class="button is-primary is-outlined link_item" href="https://github.com/kevinleeex">
                         <span class="icon">
                         <i class="fab fa-github"></i>
                         </span><span>Github</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a id="fires" class="button">
+                </a>
+            </li>
+            <li>
+                <a id="fires" class="button">
                             <span class="icon has-text-warning">
                                 <i class="fas fa-fire"></i>
                             </span>
-                            <span class="icon has-text-warning">
+                    <span class="icon has-text-warning">
                                 <i class="fas fa-fire"></i>
                             </span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                </a>
+            </li>
+        </ul>
     </div>
-</section>
+</div>
+
+
 <div id="footer" class="is-horizontal-center">
-    <p class="is-horizontal-center"><span><i class="fas fa-copyright"></i></span> <span>2014 - present</span> | Dengju Li. All rights reserved</p>
+    <p class="is-horizontal-center"><span><i class="fas fa-copyright"></i></span> <span>2014 - present</span> | Dengju
+        Li. All rights reserved</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
