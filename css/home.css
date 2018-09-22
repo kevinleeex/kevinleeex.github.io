@@ -83,7 +83,8 @@ body{
 }
 
 #footer p{
-    color: azure;
+    color: #aaaaaa;
+    font-size: 12px;
     text-align: center;
 }
 
