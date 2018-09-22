@@ -27,7 +27,7 @@ body{
     text-align: center;
     width: 300px;
     left: calc(50% - 150px);
-    top: 10%;
+    top: calc(40% - 150px);
 }
 
 #avatar{
@@ -78,15 +78,40 @@ body{
 #footer{
     position: absolute;
     text-align: center;
-    width: 900px;
+    width: 100%;
     bottom: 1%;
-    left: calc(50% - 450px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #footer p{
     color: azure;
     text-align: center;
+}
+
+@media only screen and (min-width: 374px) {
+    html {
+        font-size: 60.5% !important;
+    }
+    #avatar figure{
+        height: 92px;
+        width: 92px;
+    }
+    #name{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    html {
+        font-size: 100% !important;
+    }
+    #avatar figure{
+        height: 128px;
+        width: 128px;
+    }
+    #name{
+        font-size: 30px;
+    }
 }
 
 
