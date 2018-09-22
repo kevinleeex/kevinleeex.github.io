@@ -48,7 +48,6 @@ body{
 
 #welcome{
     position: absolute;
-    top: -10%;
     width: 100%;
 }
 
@@ -99,6 +98,9 @@ body{
     #name{
         font-size: 20px;
     }
+    #welcome{
+        top: -10%;
+    }
 }
 
 @media only screen and (min-width: 700px) {
@@ -111,6 +113,9 @@ body{
     }
     #name{
         font-size: 30px;
+    }
+    #welcome{
+        top: 0%;
     }
 }
 
