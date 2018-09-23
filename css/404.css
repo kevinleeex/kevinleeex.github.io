@@ -10,7 +10,7 @@ body {
 }
 
 .wave {
-    background: url("../img/404Wave.png") repeat-x;
+    background: url("../img404/404Wave.png") repeat-x;
     position: absolute;
     background-size: 720px 400px;
     height: 400px;
