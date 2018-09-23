@@ -90,7 +90,7 @@ body{
 
 @media only screen and (min-width: 374px) {
     html {
-        font-size: 60.5% !important;
+        font-size: 80% !important;
     }
     #avatar figure{
         height: 92px;
