@@ -19,7 +19,7 @@ window.onload = function () {
         fires.innerHTML = "<span class='icon has-text-warning'><i class='fas fa-code'></i></span><span style='color: azure'> with </span>" +
             "<span class='icon has-text-warning'><i class='fas fa-heart'></i></span>";
     }
-    fires.onmouseleave = function () {
+    fires.onmouseout = function () {
         fires.innerHTML = old_fires;
     }
 }
