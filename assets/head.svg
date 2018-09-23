@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="138px" height="96px" viewBox="0 0 138 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="208px" height="127px" viewBox="0 0 208 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>head</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M69,0 C69,13.6827409 69,45.6827409 69,96 L0,96 C17.0026882,34.6343577 40.0026882,2.6343577 69,0 Z M69,0 C97.9973118,2.6343577 120.997312,34.6343577 138,96 L69,96 C69,45.6827409 69,13.6827409 69,0 Z" id="head" fill="#497EA5"></path>
+        <path d="M185.899334,49.6143261 C147.238334,38.1203261 105.442334,31.8503261 61.5563335,32.8953261 L23.9403335,33.9403261 L22.8953335,71.5563261 C21.8503335,115.442326 28.1193335,157.238326 39.6133335,195.899326 L185.899334,49.6143261 Z" id="head" fill="#40596B" fill-rule="nonzero" transform="translate(104.340957, 114.340957) rotate(-315.000000) translate(-104.340957, -114.340957) "></path>
     </g>
 </svg>
