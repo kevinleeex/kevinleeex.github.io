@@ -8,6 +8,7 @@ NexT.utils = NexT.$u = {
   wrapImageWithFancyBox: function() {
     $('.content img')
       .not('[hidden]')
+      .not('.nofancy')
       .not('.group-picture img, .post-gallery img')
       .each(function() {
         var $image = $(this);

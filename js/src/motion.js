@@ -30,7 +30,7 @@ $(document).ready(function() {
     this.status = $.extend({}, {
       init: {
         width  : '100%',
-        opacity: 1,
+        opacity: 1.0,
         left   : 0,
         rotateZ: 0,
         top    : 0
@@ -213,7 +213,7 @@ $(document).ready(function() {
 
       $brand.length > 0 && sequence.push({
         e: $brand,
-        p: {opacity: 1},
+        p: {opacity: 1.0},
         o: {duration: 200}
       });
 
@@ -248,13 +248,13 @@ $(document).ready(function() {
 
       hasElement($title) && sequence.push({
         e: $title,
-        p: {opacity: 1, top: 0},
+        p: {opacity: 1.0, top: 0},
         o: { duration: 200 }
       });
 
       hasElement($subtitle) && sequence.push({
         e: $subtitle,
-        p: {opacity: 1, top: 0},
+        p: {opacity: 1.0, top: 0},
         o: {duration: 200}
       });
 
