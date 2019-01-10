@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="en-diy">
+<html class="theme-next gemini use-motion" lang="en-diy">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -88,7 +88,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '6.4.1',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -120,7 +120,7 @@
 <meta property="og:site_name" content="Kevin T. Lee&#39;s Blog">
 <meta property="og:description" content="Better to light one candle than to curse the darkness.">
 <meta property="og:locale" content="en-diy">
-<meta property="og:updated_time" content="2018-09-16T09:22:11.873Z">
+<meta property="og:updated_time" content="2019-01-10T10:11:06.970Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
 <meta name="twitter:description" content="Better to light one candle than to curse the darkness.">
@@ -409,6 +409,7 @@
       
       
       
+    </div>
     
 
 
@@ -421,20 +422,6 @@
 
           </div>
           
-
-  
-    <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
-    </div>
-
-  
-
-
 
         </div>
         
@@ -560,7 +547,7 @@
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a></div>
+  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a></div>
 
 
   <span class="post-meta-divider">|</span> Modified by <a class=theme-link href="http://lidengju.com">Dengju Li</a>
@@ -707,41 +694,6 @@
     <script id="dsq-count-scr" src="https://kevinleeblog.disqus.com/count.js" async></script>
   
 
-  
-    <script type="text/javascript">
-      var disqus_config = function () {
-        this.page.url = 'http://lidengju.com/categories/index.html';
-        this.page.identifier = 'categories/index.html';
-        this.page.title = 'categories';
-        };
-      function loadComments () {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://kevinleeblog.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
-      }
-      
-        $(function () {
-          var offsetTop = $('#comments').offset().top - $(window).height();
-          if (offsetTop <= 0) {
-            // load directly when there's no a scrollbar
-            loadComments();
-          } else {
-            $(window).on('scroll.disqus_scroll', function () {
-              // offsetTop may changes because of manually resizing browser window or lazy loading images.
-              var offsetTop = $('#comments').offset().top - $(window).height();
-              var scrollTop = $(window).scrollTop();
-
-              // pre-load comments a bit? (margin or anything else)
-              if (offsetTop - scrollTop < 60) {
-                $(window).off('.disqus_scroll');
-                loadComments();
-              }
-            });
-          }
-        });
-      
-    </script>
   
 
 
