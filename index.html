@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="applicable-device" content="pc,mobile">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-transform ">
-    <meta name="keywords" content="李灯举, Kevin T. Lee, 李灯举的博客">
-    <title>Kevin T. Lee | 李灯举</title>
-    
-    <link rel="icon" href="assets/favicon.png"/>
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/avatar.png">
-    <link rel="apple-touch-icon" href="/assets/avatar.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <script>
-        var _hmt = _hmt || [];
+  <meta charset="UTF-8">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-transform ">
+  <meta name="keywords" content="李灯举, Kevin T. Lee, 李灯举的博客">
+  <title>Kevin T. Lee | 李灯举</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/avatar.png">
+  <link rel="apple-touch-icon" href="/assets/avatar.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <script>
+    var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
             hm.src = "https://hm.baidu.com/hm.js?82b5f97b34133844d5319947a0807fcd";
@@ -23,9 +25,9 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126195025-1"></script>
-    <script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126195025-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -35,84 +37,87 @@
 
 
 </head>
+
 <body>
-<div id="particles-js" style="position:absolute; width: 100%; height:100%;z-index: 2"></div>
-<div id="welcome" class="is-horizontal-center" style="position:fixed;width: 100vw;z-index: 1">
+  <div id="particles-js" style="position:absolute; width: 100%; height:100%;z-index: 2"></div>
+  <div id="welcome" class="is-horizontal-center" style="position:fixed;width: 100vw;z-index: 1">
     <canvas id="scene"></canvas>
     <!-- Alright! You find this line, you could just modify the value below to change the particle slogon. -->
-    <input id="copy" type="text" value="Exploration" style="display: none"/>
-</div>
-<div id="app_content" class="is-horizontal-center">
+    <input id="copy" type="text" value="Exploration" style="display: none" />
+  </div>
+  <div id="app_content" class="is-horizontal-center">
     <div id="avatar" class="is-horizontal-center">
-            <figure class="image is-128x128" style="display: inline-block">
-                <img class="is-rounded" src="assets/avatar.png">
-            </figure>
+      <figure class="image is-128x128" style="display: inline-block">
+        <img class="is-rounded" src="assets/avatar.png">
+      </figure>
     </div>
     <div id="content">
-        <div>
-            <a id="name" class="button title">Kevin T. Lee</a>
-            <h5 class="subtitle is-5">Better to light one candle than to curse the darkness.</h5>
-        </div>
+      <div>
+        <a id="name" class="button title">Kevin T. Lee</a>
+        <h5 class="subtitle is-5">Better to light one candle than to curse the darkness.</h5>
+      </div>
     </div>
     <div id="rocket">
-        <ul class="is-mobile">
-            <li>
-                <a id="blog" class="button is-primary is-outlined link_item" href="http://lidengju.com/blog">
-                        <span class="icon">
-                        <i class="fas fa-home"></i>
-                        </span><span>Blog</span>
-                </a>
-            </li>
-            <li>
-                <a id="email" class="button is-primary is-outlined link_item" href="mailto:hello@lidengju.com">
-                        <span class="icon">
-                        <i class="far fa-envelope"></i>
-                        </span><span>Email</span>
-                </a>
-            </li>
-            <li>
-                <a id="resume" class="button is-primary is-outlined link_item" href="https://github.com/kevinleeex/resume/blob/master/pdf/resume-en.pdf">
-                        <span class="icon">
-                        <i class="fas fa-file-invoice"></i>
-                        </span><span>Resume</span>
-                </a>
-            </li>
-            <li>
-                <a id="projects" class="button is-primary is-outlined link_item">
-                        <span class="icon">
-                        <i class="fas fa-code"></i>
-                        </span><span>Projects</span>
-                </a>
-            </li>
-            <li>
-                <a  id="github" class="button is-primary is-outlined link_item" href="https://github.com/kevinleeex">
-                        <span class="icon">
-                        <i class="fab fa-github"></i>
-                        </span><span>Github</span>
-                </a>
-            </li>
-            <li>
-                <a id="fires" class="button">
-                            <span class="icon has-text-warning">
-                                <i class="fas fa-fire"></i>
-                            </span>
-                    <span class="icon has-text-warning">
-                                <i class="fas fa-fire"></i>
-                            </span>
-                </a>
-            </li>
-        </ul>
+      <ul class="is-mobile">
+        <li>
+          <a id="resume" class="button is-primary is-outlined link_item" href="http://lidengju.com/resume">
+            <span class="icon">
+              <i class="fas fa-file-invoice"></i>
+            </span><span>Resume</span>
+          </a>
+        </li>
+        <li>
+          <a id="blog" class="button is-primary is-outlined link_item" href="http://lidengju.com/blog">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span><span>Blog</span>
+          </a>
+        </li>
+        <li>
+          <a id="email" class="button is-primary is-outlined link_item" href="mailto:hello@lidengju.com">
+            <span class="icon">
+              <i class="far fa-envelope"></i>
+            </span><span>Email</span>
+          </a>
+        </li>
+
+        <li>
+          <a id="projects" class="button is-primary is-outlined link_item" href="http://lidengju/resume#projects">
+            <span class="icon">
+              <i class="fas fa-code"></i>
+            </span><span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a id="github" class="button is-primary is-outlined link_item" href="https://github.com/kevinleeex">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span><span>Github</span>
+          </a>
+        </li>
+        <li>
+          <a id="fires" class="button">
+            <span class="icon has-text-warning">
+              <i class="fas fa-fire"></i>
+            </span>
+            <span class="icon has-text-warning">
+              <i class="fas fa-fire"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
     </div>
-</div>
+  </div>
 
 
-<div id="footer" class="is-horizontal-center">
+  <div id="footer" class="is-horizontal-center">
     <p class="is-horizontal-center"><span><i class="fas fa-copyright"></i></span> <span>2014 - present</span> | Dengju
-        Li. All rights reserved</p>
-</div>
+      Li. All rights reserved</p>
+  </div>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="js/src/text2particles.js"></script>
-<script src="js/src/home.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/src/text2particles.js"></script>
+  <script src="js/src/home.js"></script>
 </body>
+
 </html>
