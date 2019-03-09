@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dengju Li on Resume | Kevin T. Lee</title>
+    <link>/resume/zh/authors/dengju-li/</link>
+    <description>Recent content in Dengju Li on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/zh/authors/dengju-li/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Gesture Recognition Method Based on Spiking Neural Networks for Cognition Development</title>
+      <link>/resume/zh/publication/gesture/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/publication/gesture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>谷歌机器学习速成课程个人笔记</title>
+      <link>/resume/zh/publication/mlcc/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/publication/mlcc/</guid>
+      <description>谷歌机器学习速成课程笔记(Notes for Google MLCC) 该笔记内容均来自MLCC，对原有文章内容，在尽量保留原义的情况下做了部分增删改；对原有的代码，自己</description>
+    </item>
+    
+  </channel>
+</rss>

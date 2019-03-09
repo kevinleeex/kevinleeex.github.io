@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/talk/example/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/talk/example/" hreflang="zh"/>
+    
+      <loc>/resume/talk/example/</loc>
+      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/post/jupyter/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/post/jupyter/" hreflang="zh"/>
+    
+      <loc>/resume/post/jupyter/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication/gesture/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication/gesture/" hreflang="zh"/>
+    
+      <loc>/resume/publication/gesture/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/dj-beat/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/dj-beat/" hreflang="zh"/>
+    
+      <loc>/resume/project/dj-beat/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/k-pic/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/k-pic/" hreflang="zh"/>
+    
+      <loc>/resume/project/k-pic/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/404-page/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/404-page/" hreflang="zh"/>
+    
+      <loc>/resume/project/404-page/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/vs-model/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/vs-model/" hreflang="zh"/>
+    
+      <loc>/resume/project/vs-model/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tutorial/example/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tutorial/example/" hreflang="zh"/>
+    
+      <loc>/resume/tutorial/example/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tutorial/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tutorial/" hreflang="zh"/>
+    
+      <loc>/resume/tutorial/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/ncrc-web/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/ncrc-web/" hreflang="zh"/>
+    
+      <loc>/resume/project/ncrc-web/</loc>
+      <lastmod>2017-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/post/getting-started/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/post/getting-started/" hreflang="zh"/>
+    
+      <loc>/resume/post/getting-started/</loc>
+      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication/mlcc/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication/mlcc/" hreflang="zh"/>
+    
+      <loc>/resume/publication/mlcc/</loc>
+      <lastmod>2015-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/author/admin/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/author/admin/" hreflang="zh"/>
+    
+      <loc>/resume/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication_types/1/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication_types/1/" hreflang="zh"/>
+    
+      <loc>/resume/publication_types/1/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication_types/5/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication_types/5/" hreflang="zh"/>
+    
+      <loc>/resume/publication_types/5/</loc>
+      <lastmod>2015-09-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/academic/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/academic/" hreflang="zh"/>
+    
+      <loc>/resume/tags/academic/</loc>
+      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/author/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/author/" hreflang="zh"/>
+    
+      <loc>/resume/author/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/" hreflang="zh"/>
+    
+      <loc>/resume/authors/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/categories/" hreflang="zh"/>
+    
+      <loc>/resume/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/dengju-li/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/dengju-li/" hreflang="zh"/>
+    
+      <loc>/resume/authors/dengju-li/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/dong-niu/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/dong-niu/" hreflang="zh"/>
+    
+      <loc>/resume/authors/dong-niu/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/huajin-tang/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/huajin-tang/" hreflang="zh"/>
+    
+      <loc>/resume/authors/huajin-tang/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/post/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/post/" hreflang="zh"/>
+    
+      <loc>/resume/post/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/project/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/project/" hreflang="zh"/>
+    
+      <loc>/resume/project/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication_types/" hreflang="zh"/>
+    
+      <loc>/resume/publication_types/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/publication/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication/" hreflang="zh"/>
+    
+      <loc>/resume/publication/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/talk/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/talk/" hreflang="zh"/>
+    
+      <loc>/resume/talk/</loc>
+      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/" hreflang="zh"/>
+    
+      <loc>/resume/</loc>
+      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/rui-yan/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/rui-yan/" hreflang="zh"/>
+    
+      <loc>/resume/authors/rui-yan/</loc>
+      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/slides/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/slides/" hreflang="zh"/>
+    
+      <loc>/resume/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/slides/example-slides/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/slides/example-slides/" hreflang="zh"/>
+    
+      <loc>/resume/slides/example-slides/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/" hreflang="zh"/>
+    
+      <loc>/resume/tags/</loc>
+      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/admin/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/admin/" hreflang="zh"/>
+    
+      <loc>/resume/authors/admin/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/app/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/app/" hreflang="zh"/>
+    
+      <loc>/resume/tags/app/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/gadget/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/gadget/" hreflang="zh"/>
+    
+      <loc>/resume/tags/gadget/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/model/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/model/" hreflang="zh"/>
+    
+      <loc>/resume/tags/model/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/tags/other/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/tags/other/" hreflang="zh"/>
+    
+      <loc>/resume/tags/other/</loc>
+      <lastmod>2017-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

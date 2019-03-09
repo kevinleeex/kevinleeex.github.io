@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Resume | Kevin T. Lee</title>
+    <link>/resume/zh/tags/</link>
+    <description>Recent content in Tags on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>/resume/zh/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>/resume/zh/tags/app/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gadget</title>
+      <link>/resume/zh/tags/gadget/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/tags/gadget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model</title>
+      <link>/resume/zh/tags/model/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/tags/model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>other</title>
+      <link>/resume/zh/tags/other/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/tags/other/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

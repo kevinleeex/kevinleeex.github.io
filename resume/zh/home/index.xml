@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Resume | Kevin T. Lee</title>
+    <link>/resume/zh/home/</link>
+    <description>Recent content in Homes on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2018</copyright>
+    
+	<atom:link href="/resume/zh/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/resume/zh/home/slider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/slider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biography</title>
+      <link>/resume/zh/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>部分技能</title>
+      <link>/resume/zh/home/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>经历</title>
+      <link>/resume/zh/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>成就</title>
+      <link>/resume/zh/home/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/resume/zh/home/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>部分项目</title>
+      <link>/resume/zh/home/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>/resume/zh/home/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/gallery/</guid>
+      <description>          </description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/resume/zh/home/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/resume/zh/home/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>精选出版</title>
+      <link>/resume/zh/home/featured/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>近期出版</title>
+      <link>/resume/zh/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Popular Topics</title>
+      <link>/resume/zh/home/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>联系我</title>
+      <link>/resume/zh/home/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/zh/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
