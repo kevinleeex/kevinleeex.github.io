@@ -7,6 +7,8 @@ window.onload = function () {
     let name = document.getElementById("name");
     let fires = document.getElementById("fires");
 
+    let _canvas = document.getElementsByClassName("particles-js-canvas-el");
+
 
     let old_name = name.innerHTML;
     let old_fires = fires.innerHTML;
