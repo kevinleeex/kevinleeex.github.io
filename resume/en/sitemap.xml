@@ -15,6 +15,17 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/resume/publication/dtme/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/publication/dtme/" hreflang="zh"/>
+    
+      <loc>/resume/publication/dtme/</loc>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="/resume/post/jupyter/" hreflang="en"/>
       <xhtml:link rel="alternate" href="/resume/zh/post/jupyter/" hreflang="zh"/>
     
@@ -150,7 +161,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/publication_types/1/" hreflang="zh"/>
     
       <loc>/resume/publication_types/1/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -219,7 +230,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/authors/dengju-li/" hreflang="zh"/>
     
       <loc>/resume/authors/dengju-li/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -243,7 +254,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/authors/huajin-tang/" hreflang="zh"/>
     
       <loc>/resume/authors/huajin-tang/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -278,7 +289,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/publication_types/" hreflang="zh"/>
     
       <loc>/resume/publication_types/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -290,7 +301,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/publication/" hreflang="zh"/>
     
       <loc>/resume/publication/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -324,7 +335,7 @@
       <xhtml:link rel="alternate" href="/resume/zh/authors/rui-yan/" hreflang="zh"/>
     
       <loc>/resume/authors/rui-yan/</loc>
-      <lastmod>2018-12-01T00:00:00+08:00</lastmod>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -358,6 +369,18 @@
     
       <loc>/resume/tags/</loc>
       <lastmod>2018-01-13T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/resume/authors/xiaoliang-xu/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/resume/zh/authors/xiaoliang-xu/" hreflang="zh"/>
+    
+      <loc>/resume/authors/xiaoliang-xu/</loc>
+      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
