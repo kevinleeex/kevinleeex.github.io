@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huajin Tang on Resume | Kevin T. Lee</title>
+    <link>/resume/authors/huajin-tang/</link>
+    <description>Recent content in Huajin Tang on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/authors/huajin-tang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dance to Music Expressively: A Brain-inspired System Based on Audio-semantic Model for Cognitive Development of Robots</title>
+      <link>/resume/publication/dtme/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/publication/dtme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Gesture Recognition Method Based on Spiking Neural Networks for Cognition Development</title>
+      <link>/resume/publication/gesture/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/publication/gesture/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

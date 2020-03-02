@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>app on Resume | Kevin T. Lee</title>
+    <link>/resume/tags/app/</link>
+    <description>Recent content in app on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DJ-beats</title>
+      <link>/resume/project/dj-beat/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/dj-beat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-pic</title>
+      <link>/resume/project/k-pic/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/k-pic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
