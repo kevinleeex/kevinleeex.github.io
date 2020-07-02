@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2018</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/resume/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>scu_thesis_2020</title>
+      <link>/resume/project/scu_thesis_2020/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/scu_thesis_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DJ-beats</title>
