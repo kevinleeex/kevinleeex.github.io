@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Opps...The page seems lost.</title>
+    <link rel="stylesheet" type="text/css" href="/css/404.css">
+</head>
+<body>
+<div class="container">
+    <ul id="scene">
+        <li class="layer" data-depth="0.1">
+            <img class="sun" src="/img404/sun.png"/>
+        </li>
+        <li class="layer" data-depth="0.2">
+            <img class="cloud1" src="/img404/cloud1.png"/>
+            <img class="cloud2" src="/img404/cloud2.png"/>
+            <img class="cloud3" src="/img404/cloud3.png"/>
+        </li>
+        <li class="layer" data-depth="0.3">
+            <img class="mountain" src="/img404/mountain.png"/>
+        </li>
+        <li class="layer" data-depth="0.5">
+            <div class="balloon-holder" id="balloon-holder">
+                <img class="balloon" src="/img404/fire_balloon.png" onclick="location='/index.html'"/>
+                <span id="words" class="words">Can't find the page, go back by the hot-air balloon~</span>
+            </div>
+
+        </li>
+        <li class="layer" data-depth="0.6">
+            <div class="wave depth-3"></div>
+        </li>
+        <li class="layer" data-depth="0.8"><img class="logo" src="/img404/404Logo.png"/></li>
+        <li class="layer" data-depth="0.5">
+            <div class="wave depth-2"></div>
+        </li>
+
+        <li class="layer" data-depth="0.4">
+            <div class="wave depth-1"></div>
+        </li>
+    </ul>
+</div>
+
+
+<!-- Scripts -->
+<script src="/js/src/parallax.js"></script>
+<script>
+
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+    var balloon = document.getElementById('balloon-holder');
+    var words = document.getElementById('words')
+    balloon.onmouseover = function () {
+        words.className = "words_on";
+    };
+    balloon.onmouseout = function () {
+        words.className = "words";
+    };
+</script>
+</body>
+</html>

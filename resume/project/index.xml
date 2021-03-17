@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Resume | Kevin T. Lee</title>
+    <link>/resume/project/</link>
+    <description>Recent content in Projects on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>scu_thesis_2020</title>
+      <link>/resume/project/scu_thesis_2020/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/scu_thesis_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DJ-beats</title>
+      <link>/resume/project/dj-beat/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/dj-beat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-pic</title>
+      <link>/resume/project/k-pic/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/k-pic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SunIsland 404 Page</title>
+      <link>/resume/project/404-page/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/404-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual-semantic model</title>
+      <link>/resume/project/vs-model/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/vs-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NCRC Official website(offline)</title>
+      <link>/resume/project/ncrc-web/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/project/ncrc-web/</guid>
+      <description>Hello</description>
+    </item>
+    
+  </channel>
+</rss>

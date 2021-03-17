@@ -1,0 +1,140 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
+    background: #00152E;
+}
+.level-item, .title{
+    color: azure;
+}
+
+.column{
+    color: azure;
+    text-align: center;
+    vertical-align: center;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+}
+
+#app_content{
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: calc(40% - 150px);
+}
+
+#avatar{
+    text-align: center;
+}
+
+#rocket{
+    margin-top: 30px;
+}
+
+.link_item{
+    border-color: transparent!important;
+}
+
+.button{
+    z-index: 2;
+}
+
+#welcome{
+    position: absolute;
+    width: 100%;
+}
+
+.title{
+    border-color: transparent!important;
+    background-color: transparent!important;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.subtitle{
+    color: #c3c3c3;
+}
+
+
+.title:hover{
+    color: #95dafc;
+}
+
+#fires{
+    border-color: transparent!important;
+    background-color: transparent!important;
+    -webkit-animation: anim-fires 1s 0.1s infinite alternate linear;
+    -moz-animation: anim-fires 1s 0.1s infinite alternate linear;
+    animation: anim-fires 1s 0.1s infinite alternate linear;
+}
+
+
+#footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer p{
+    color: #aaaaaa;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 374px) {
+    html {
+        font-size: 80% !important;
+    }
+    #avatar figure{
+        height: 92px;
+        width: 92px;
+    }
+    #name{
+        font-size: 20px;
+    }
+    #welcome{
+        top: -10%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    html {
+        font-size: 100% !important;
+    }
+    #avatar figure{
+        height: 128px;
+        width: 128px;
+    }
+    #name{
+        font-size: 30px;
+    }
+    #welcome{
+        top: 0%;
+    }
+}
+
+@keyframes anim-fires {
+    0% {
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    100% {
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
