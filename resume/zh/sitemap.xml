@@ -4,6 +4,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/resume/zh/talk/cmb-host/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/resume/talk/cmb-host/" hreflang="en"/>
+    
       <loc>/resume/zh/talk/cmb-host/</loc>
       <lastmod>2021-02-05T18:30:00+08:00</lastmod>
     </url>
