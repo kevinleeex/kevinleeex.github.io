@@ -4,11 +4,8 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/resume/zh/talk/example/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="/resume/talk/example/" hreflang="en"/>
-    
-      <loc>/resume/zh/talk/example/</loc>
-      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+      <loc>/resume/zh/talk/cmb-host/</loc>
+      <lastmod>2021-02-05T18:30:00+08:00</lastmod>
     </url>
     
   
@@ -323,7 +320,7 @@
       <xhtml:link rel="alternate" href="/resume/talk/" hreflang="en"/>
     
       <loc>/resume/zh/talk/</loc>
-      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+      <lastmod>2021-02-05T18:30:00+08:00</lastmod>
     </url>
     
   
@@ -334,7 +331,7 @@
       <xhtml:link rel="alternate" href="/resume/" hreflang="en"/>
     
       <loc>/resume/zh/</loc>
-      <lastmod>2030-06-01T13:00:00+08:00</lastmod>
+      <lastmod>2021-02-05T18:30:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
