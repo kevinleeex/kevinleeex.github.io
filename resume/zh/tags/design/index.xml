@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on Resume | Kevin T. Lee</title>
+    <link>/resume/zh/tags/design/</link>
+    <description>Recent content in design on Resume | Kevin T. Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2018</copyright>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/resume/zh/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WeChat-iOS15 Mock Icon</title>
+      <link>/resume/zh/project/wechat-ios15-mock/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/project/wechat-ios15-mock/</guid>
+      <description>据闻#ios15 会使用新的图标设计语言，终于不再是单纯的扁平化了，都疲劳了……我理解会像mac上的图标一样使用更多的高光和阴影来增加层次，那</description>
+    </item>
+    
+  </channel>
+</rss>

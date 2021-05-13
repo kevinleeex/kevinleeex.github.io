@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2018</copyright>
-    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/resume/zh/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WeChat-iOS15 Mock Icon</title>
+      <link>/resume/zh/project/wechat-ios15-mock/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/project/wechat-ios15-mock/</guid>
+      <description>据闻#ios15 会使用新的图标设计语言，终于不再是单纯的扁平化了，都疲劳了……我理解会像mac上的图标一样使用更多的高光和阴影来增加层次，那</description>
+    </item>
     
     <item>
       <title>scu_thesis_2020</title>

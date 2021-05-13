@@ -7,8 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2018</copyright>
-    <lastBuildDate>Fri, 05 Feb 2021 18:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0800</lastBuildDate>
     <atom:link href="/resume/zh/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WeChat-iOS15 Mock Icon</title>
+      <link>/resume/zh/project/wechat-ios15-mock/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/project/wechat-ios15-mock/</guid>
+      <description>&lt;p&gt;据闻#ios15 会使用新的图标设计语言，终于不再是单纯的扁平化了，都疲劳了……我理解会像mac上的图标一样使用更多的高光和阴影来增加层次，那么我盲猜微信的图标会像这样&amp;hellip;😝
+&lt;div&gt;
+&lt;video src=&#34;http://hexo-blog-1257698583.cos.ap-chengdu.myqcloud.com/1620911230259.mp4&#34; controls=&#34;controls&#34;&gt;不支持视频播放，点击&lt;a href=&#34;http://hexo-blog-1257698583.cos.ap-chengdu.myqcloud.com/1620911230259.mp4&#34;&gt;跳转&lt;/a&gt;下载观看&lt;/video&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>招商银行·招银网络科技（杭州）曜出彩｜2021梦烧晚会</title>
