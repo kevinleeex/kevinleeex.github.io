@@ -26,6 +26,14 @@
     
     <url>
     
+      <loc>/resume/zh/publication/cogrobot/</loc>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="/resume/zh/project/scu_thesis_2020/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="/resume/project/scu_thesis_2020/" hreflang="en"/>
     
@@ -179,6 +187,15 @@
     
     <url>
     
+      <loc>/resume/zh/publication_types/0/</loc>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="/resume/zh/publication_types/1/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="/resume/publication_types/1/" hreflang="en"/>
     
@@ -252,7 +269,7 @@
       <xhtml:link rel="alternate" href="/resume/authors/dengju-li/" hreflang="en"/>
     
       <loc>/resume/zh/authors/dengju-li/</loc>
-      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -311,7 +328,7 @@
       <xhtml:link rel="alternate" href="/resume/publication_types/" hreflang="en"/>
     
       <loc>/resume/zh/publication_types/</loc>
-      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -323,7 +340,7 @@
       <xhtml:link rel="alternate" href="/resume/publication/" hreflang="en"/>
     
       <loc>/resume/zh/publication/</loc>
-      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -357,7 +374,7 @@
       <xhtml:link rel="alternate" href="/resume/authors/rui-yan/" hreflang="en"/>
     
       <loc>/resume/zh/authors/rui-yan/</loc>
-      <lastmod>2019-12-12T00:00:00+08:00</lastmod>
+      <lastmod>2020-10-09T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2018</copyright>
-    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/resume/zh/authors/dengju-li/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一种脉冲双向联想记忆的认知方法及系统</title>
+      <link>/resume/zh/publication/cogrobot/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/publication/cogrobot/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dance to Music Expressively: A Brain-inspired System Based on Audio-semantic Model for Cognitive Development of Robots</title>
