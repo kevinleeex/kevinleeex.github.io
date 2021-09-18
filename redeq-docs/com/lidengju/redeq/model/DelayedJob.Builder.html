@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/avatar.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/avatar.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
+  <link rel="mask-icon" href="/assets/avatar.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.lidengju.com","root":"/","images":"/images","scheme":"Gemini","version":"8.2.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="DelayedJob.Builder (ReDeQ Docs)       var methods &#x3D; {&quot;i0&quot;:10,&quot;i1&quot;:10,&quot;i2&quot;:10,&quot;i3&quot;:10}; var tabs &#x3D; {65535:[&quot;t0&quot;,&quot;所有方法&quot;],2:[&quot;t2&quot;,&quot;实例方法&quot;],8:[&quot;t4&quot;,&quot;具体方法&quot;]}; var altColor &#x3D; &quot;altColor&quot;; var rowColor &#x3D;">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kevin T. Lee&#39;s Blog">
+<meta property="og:url" content="https://www.lidengju.com/redeq-docs/com/lidengju/redeq/model/DelayedJob.Builder.html">
+<meta property="og:site_name" content="Kevin T. Lee&#39;s Blog">
+<meta property="og:description" content="DelayedJob.Builder (ReDeQ Docs)       var methods &#x3D; {&quot;i0&quot;:10,&quot;i1&quot;:10,&quot;i2&quot;:10,&quot;i3&quot;:10}; var tabs &#x3D; {65535:[&quot;t0&quot;,&quot;所有方法&quot;],2:[&quot;t2&quot;,&quot;实例方法&quot;],8:[&quot;t4&quot;,&quot;具体方法&quot;]}; var altColor &#x3D; &quot;altColor&quot;; var rowColor &#x3D;">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-09-10T06:55:58.214Z">
+<meta property="article:modified_time" content="2021-09-10T06:49:35.358Z">
+<meta property="article:author" content="Kevin T. Lee">
+<meta property="article:tag" content="李灯举, Kevin T. Lee, lidengju">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.lidengju.com/redeq-docs/com/lidengju/redeq/model/DelayedJob.Builder">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+<title> | Kevin T. Lee's Blog
+</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126195025-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-126195025-1');
+      }
+    </script>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?2df2b53ca13e8ab45790002fbcda3ac1";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Kevin T. Lee's Blog</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">李灯举的博客</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/blog" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about-zh/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">类 DelayedJob.Builder</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.1.</span> <span class="nav-text">构造器概要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.2.</span> <span class="nav-text">方法概要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.3.</span> <span class="nav-text">从类继承的方法&amp;nbsp;java.lang.Object</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.4.</span> <span class="nav-text">构造器详细资料</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.4.1.</span> <span class="nav-text">Builder</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">1.5.</span> <span class="nav-text">方法详细资料</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.5.1.</span> <span class="nav-text">withBase</span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.5.2.</span> <span class="nav-text">withBase</span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.5.3.</span> <span class="nav-text">withBody</span></a></li><li class="nav-item nav-level-4"><a class="nav-link"><span class="nav-number">1.5.4.</span> <span class="nav-text">build</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Kevin T. Lee"
+      src="/assets/avatar.png">
+  <p class="site-author-name" itemprop="name">Kevin T. Lee</p>
+  <div class="site-description" itemprop="description">Better to light one candle than to curse the darkness.</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/kevinleeex" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kevinleeex" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hello@lidengju.com" title="E-Mail → mailto:hello@lidengju.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/lidengju/" title="LinkedIn → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lidengju&#x2F;" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/kevintlee" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;kevintlee" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner page posts-expand">
+  
+  
+
+
+    
+    
+    
+    <div class="post-block" lang="zh-CN"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">
+</h1>
+
+<div class="post-meta-container">
+  <ul class="breadcrumb">
+            <li><a href="/redeq-docs/">REDEQ-DOCS</a></li>
+            <li><a href="/redeq-docs/com/">COM</a></li>
+            <li><a href="/redeq-docs/com/lidengju/">LIDENGJU</a></li>
+            <li><a href="/redeq-docs/com/lidengju/redeq/">REDEQ</a></li>
+            <li><a href="/redeq-docs/com/lidengju/redeq/model/">MODEL</a></li>
+            <li>DELAYEDJOB.BUILDER</li>
+          
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      <div class="post-body">
+          <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="zh">
+<head>
+<!-- Generated by javadoc (1.8.0_151) on Fri Sep 10 14:49:35 CST 2021 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DelayedJob.Builder (ReDeQ Docs)</title>
+<meta name="date" content="2021-09-10">
+<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+<script type="text/javascript" src="../../../../script.js"></script>
+</head>
+<body>
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="DelayedJob.Builder (ReDeQ Docs)";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10};
+var tabs = {65535:["t0","所有方法"],2:["t2","实例方法"],8:["t4","具体方法"]};
+var altColor = "altColor";
+var rowColor = "rowColor";
+var tableTab = "tableTab";
+var activeTableTab = "activeTableTab";
+</script>
+<noscript>
+<div>您的浏览器已禁用 JavaScript。</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="跳过导航链接">跳过导航链接</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="导航">
+<li><a href="../../../../overview-summary.html">概览</a></li>
+<li><a href="package-summary.html">程序包</a></li>
+<li class="navBarCell1Rev">类</li>
+<li><a href="package-tree.html">树</a></li>
+<li><a href="../../../../deprecated-list.html">已过时</a></li>
+<li><a href="../../../../index-files/index-1.html">索引</a></li>
+<li><a href="../../../../help-doc.html">帮助</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/lidengju/redeq/model/DelayedJob.html" title="com.lidengju.redeq.model中的类"><span class="typeNameLink">上一个类</span></a></li>
+<li>下一个类</li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/lidengju/redeq/model/DelayedJob.Builder.html" target="_top">框架</a></li>
+<li><a href="DelayedJob.Builder.html" target="_top">无框架</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">所有类</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>概要:&nbsp;</li>
+<li>嵌套&nbsp;|&nbsp;</li>
+<li>字段&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">构造器</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">方法</a></li>
+</ul>
+<ul class="subNavList">
+<li>详细资料:&nbsp;</li>
+<li>字段&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">构造器</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">方法</a></li>
+</ul>
+</div>
+<a name="skip.navbar.top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.lidengju.redeq.model</div>
+<h2 title="类 DelayedJob.Builder" class="title">类 DelayedJob.Builder</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>com.lidengju.redeq.model.DelayedJob.Builder</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>封闭类:</dt>
+<dd><a href="../../../../com/lidengju/redeq/model/DelayedJob.html" title="com.lidengju.redeq.model中的类">DelayedJob</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public static class <span class="typeNameLabel">DelayedJob.Builder</span>
+extends java.lang.Object</pre>
+<div class="block">Delayed Job Builder</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>构造器概要</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="构造器概要表, 列表构造器和解释">
+<caption><span>构造器</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">构造器和说明</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html#Builder--">Builder</a></span>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>方法概要</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="方法概要表, 列表方法和解释">
+<caption><span id="t0" class="activeTableTab"><span>所有方法</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">实例方法</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">具体方法</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">限定符和类型</th>
+<th class="colLast" scope="col">方法和说明</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code><a href="../../../../com/lidengju/redeq/model/DelayedJob.html" title="com.lidengju.redeq.model中的类">DelayedJob</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html#build--">build</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html#withBase-java.lang.String-">withBase</a></span>(java.lang.String&nbsp;topic)</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html#withBase-java.lang.String-java.lang.String-">withBase</a></span>(java.lang.String&nbsp;topic,
+        java.lang.String&nbsp;jobId)</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html#withBody-java.lang.Object-">withBody</a></span>(java.lang.Object&nbsp;body)</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>从类继承的方法&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>构造器详细资料</h3>
+<a name="Builder--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Builder</h4>
+<pre>public&nbsp;Builder()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>方法详细资料</h3>
+<a name="withBase-java.lang.String-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>withBase</h4>
+<pre>public&nbsp;<a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a>&nbsp;withBase(java.lang.String&nbsp;topic,
+                                   java.lang.String&nbsp;jobId)</pre>
+</li>
+</ul>
+<a name="withBase-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>withBase</h4>
+<pre>public&nbsp;<a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a>&nbsp;withBase(java.lang.String&nbsp;topic)</pre>
+</li>
+</ul>
+<a name="withBody-java.lang.Object-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>withBody</h4>
+<pre>public&nbsp;<a href="../../../../com/lidengju/redeq/model/DelayedJob.Builder.html" title="com.lidengju.redeq.model中的类">DelayedJob.Builder</a>&nbsp;withBody(java.lang.Object&nbsp;body)</pre>
+</li>
+</ul>
+<a name="build--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>build</h4>
+<pre>public&nbsp;<a href="../../../../com/lidengju/redeq/model/DelayedJob.html" title="com.lidengju.redeq.model中的类">DelayedJob</a>&nbsp;build()</pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar.bottom">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.bottom" title="跳过导航链接">跳过导航链接</a></div>
+<a name="navbar.bottom.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="导航">
+<li><a href="../../../../overview-summary.html">概览</a></li>
+<li><a href="package-summary.html">程序包</a></li>
+<li class="navBarCell1Rev">类</li>
+<li><a href="package-tree.html">树</a></li>
+<li><a href="../../../../deprecated-list.html">已过时</a></li>
+<li><a href="../../../../index-files/index-1.html">索引</a></li>
+<li><a href="../../../../help-doc.html">帮助</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../com/lidengju/redeq/model/DelayedJob.html" title="com.lidengju.redeq.model中的类"><span class="typeNameLink">上一个类</span></a></li>
+<li>下一个类</li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?com/lidengju/redeq/model/DelayedJob.Builder.html" target="_top">框架</a></li>
+<li><a href="DelayedJob.Builder.html" target="_top">无框架</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">所有类</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>概要:&nbsp;</li>
+<li>嵌套&nbsp;|&nbsp;</li>
+<li>字段&nbsp;|&nbsp;</li>
+<li><a href="#constructor.summary">构造器</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.summary">方法</a></li>
+</ul>
+<ul class="subNavList">
+<li>详细资料:&nbsp;</li>
+<li>字段&nbsp;|&nbsp;</li>
+<li><a href="#constructor.detail">构造器</a>&nbsp;|&nbsp;</li>
+<li><a href="#method.detail">方法</a></li>
+</ul>
+</div>
+<a name="skip.navbar.bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+</body>
+</html>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/redeq-docs/">REDEQ-DOCS</a></li>
+            <li><a href="/redeq-docs/com/">COM</a></li>
+            <li><a href="/redeq-docs/com/lidengju/">LIDENGJU</a></li>
+            <li><a href="/redeq-docs/com/lidengju/redeq/">REDEQ</a></li>
+            <li><a href="/redeq-docs/com/lidengju/redeq/model/">MODEL</a></li>
+            <li>DELAYEDJOB.BUILDER</li>
+          
+  </ul>
+
+    
+    
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Li, Dengju. All rights reserved.</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://kevinleeblog.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://www.lidengju.com/redeq-docs/com/lidengju/redeq/model/DelayedJob.Builder.html";
+    this.page.identifier = "redeq-docs/com/lidengju/redeq/model/DelayedJob.Builder.html";
+    this.page.title = "";
+    };
+  NexT.utils.loadComments('#disqus_thread', () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://kevinleeblog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>
