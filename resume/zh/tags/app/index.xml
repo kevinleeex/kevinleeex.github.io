@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2018</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/resume/zh/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redis Delayed Queue</title>
+      <link>/resume/zh/project/redeq/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/resume/zh/project/redeq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DJ-beats</title>
