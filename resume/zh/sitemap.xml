@@ -4,6 +4,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/resume/zh/project/redeq/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/resume/project/redeq/" hreflang="en"/>
+    
       <loc>/resume/zh/project/redeq/</loc>
       <lastmod>2021-09-19T00:00:00+08:00</lastmod>
     </url>
